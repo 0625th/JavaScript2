@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body {
+  background-color: #000000;  
+}
+
+.container {
+  text-align: center;
+}
+
+.display-container {
+  text-align: right;
+  max-width: 240px;
+  margin: 0 auto;
+  margin-bottom: -30px;
+  padding-top: 20px;
+}
+
+#display {
+  color: #ffffff;
+  font-size: 36px;
+  text-align: right;
+  padding: 0 10px;
+  max-width: 240px;
+}
+
+.button-container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.button-1st-row {
+  padding-bottom: 10px;
+}
+
+.button-2nd-row {
+  padding-bottom: 10px;
+}
+
+.button-3rd-row {
+  padding-bottom: 10px;
+}
+
+.button-4th-row {
+  padding-bottom: 10px;
+}
+
+.button-5th-row {
+  padding-bottom: 10px;
+}
+
+.btn {
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  margin-right: 6px;
+  height: 50px;
+  width:50px;
+}
+
+.long-btn {
+  border: none;
+  font-size: 24px;
+  border-radius: 40px;
+  margin-right: 6px;
+  height: 50px;
+  width: 112px;
+  text-align: left;
+  padding-left: 18px;
+}
+
+.btn:hover,.long-btn:hover {
+  opacity: 0.6;
+}
+
+.lightgray {
+  background-color: #cccccc;
+}
+
+.orange {
+  color: #ffffff;
+  font-size: 26px;
+  background-color: #ff8c00;
+}
+
+.orange:active {
+  color: #ff8c00;
+  background-color: #ffffff;
+}
+
+.darkgray {
+  color: #ffffff;
+  background-color: #444444;
+}
